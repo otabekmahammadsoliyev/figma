@@ -1,0 +1,223 @@
+nav {
+  width: 100%;
+  background: #000000;
+}
+nav .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px;
+}
+nav .container .left img {
+  width: 20px;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+nav .container .left svg {
+  display: none;
+  fill: rgb(228, 219, 219);
+}
+nav .container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+nav .container .box .center a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0px 10px;
+}
+nav .container .box .right button {
+  border-radius: 5px;
+  background: #49b649;
+  border: none;
+  padding: 3px;
+  color: #fff;
+}
+.activNav {
+  display: none;
+  background: black;
+  position: fixed;
+  margin-top: 70px;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.activNav a {
+  text-decoration: line-through;
+  line-height: 60px;
+  font-style: italic;
+  color: #fff;
+  font-size: 30px;
+}
+/* media */
+ @media screen and (max-width: 375px) {
+  nav .container {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+  }
+  nav .container .left {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  nav .container .left svg {
+    display: block;
+  }
+  nav .container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+  nav .container .center {
+    display: none;
+  }
+  nav .container .right {
+    display: none;
+  }
+  .activNav {
+    display: block;
+    flex-direction: column;
+  }
+  .activNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .activNav .box .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .activNav .box .right button {
+    border-radius: 5px;
+    background: #49b649;
+    border: none;
+    padding: 1px 15px;
+    color: #fff;
+  }
+  .activNav .box .right button:hover {
+    background: none;
+    border: 1px solid #49b649;
+  }
+  .activNav .box a:hover {
+    color: #49b649;
+    font-style: italic;
+    font-weight: bold;
+  }
+}
+ @media screen and (min-width: 376px) and (max-width:768px) {
+  nav .container {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+  }
+  nav .container .left {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  nav .container .left svg {
+    display: block;
+  }
+  nav .container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px
+  }
+  nav .container .center {
+    display: none;
+  }
+  nav .container .right {
+    display: none;
+  }
+  .activNav {
+    display: block;
+    flex-direction: column;
+  }
+  .activNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  .activNav .box .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .activNav .box .right button {
+    border-radius: 5px;
+    background: #49b649;
+    border: none;
+    padding: 1px 15px;
+    color: #fff;
+  }
+  .activNav .box .right button:hover {
+    background: none;
+    border: 1px solid #49b649;
+  }
+  .activNav .box a:hover {
+    color: #49b649;
+    font-style: italic;
+    font-weight: bold;
+  }
+}
+ @media screen and (min-width: 769px) and (max-width:1200px) {
+  nav .container {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+  }
+  nav .container .left {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  nav .container .left svg {
+    display: none;
+  }
+  nav .container .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+    
+  }
+  nav .container .center {
+    display: block;
+  }
+  nav .container .right {
+    display: block;
+  }
+}
+.active {
+  left: 0 !important;
+}
+.activNav svg {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  fill: red;
+} 
