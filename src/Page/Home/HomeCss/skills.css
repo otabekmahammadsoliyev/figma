@@ -1,0 +1,53 @@
+.skil {
+  padding: 60px 0;
+}
+.skil .container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.skil .container .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.skil .container .box .a {
+  font-size: 10px;
+}
+.skil .container .box .a img {
+  background-color: rgb(19, 5, 91);
+  border: none;
+}
+@media screen and (max-width: 375px) {
+  .skil .container {
+    width: 100%;
+  }
+  .skil .container .box {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 420px) {
+  .skil .container {
+    width: 100%;
+  }
+  .skil .container .box {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  .skil .container {
+    width: 100%;
+  }
+  .skil .container .box {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1220px) {
+  .skil .container {
+    width: 100%;
+  }
+}

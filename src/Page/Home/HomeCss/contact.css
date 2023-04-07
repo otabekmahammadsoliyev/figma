@@ -1,0 +1,47 @@
+.contact {
+  padding: 50px 0px;
+}
+.contact .container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.contact .container button {
+  color: #fff;
+  background-color: rgb(16, 57, 145);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+}
+@media screen and (max-width: 375px) {
+  .contact .container {
+    width: 100%;
+  }
+  .contact .container img {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width:580px) {
+  .contact .container {
+    width: 100%;
+  }
+  .contact .container img {
+    width: 360px;
+  }
+}
+@media screen and (min-width: 581px) and (max-width:768px) {
+  .contact .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 76px) and (max-width:1200зчpx) {
+  .contact .container {
+    width: 100%;
+  }
+}

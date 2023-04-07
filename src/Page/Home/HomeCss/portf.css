@@ -1,0 +1,57 @@
+.pofoliya {
+  background-color: rgb(223, 215, 215);
+  padding: 50px 0px;
+}
+.pofoliya .container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.pofoliya .container h1 {
+  padding: 50px 0;
+}
+@media screen and (max-width: 375px) {
+  .pofoliya .container {
+    width: 100%;
+  }
+  .pofoliya .container img {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width:420px) {
+  .pofoliya .container {
+    width: 100%;
+  }
+  .pofoliya .container img {
+    width: 390px;
+  }
+}
+@media screen and (min-width: 420px) and (max-width:530px) {
+  .pofoliya .container {
+    width: 100%;
+  }
+  .pofoliya .container img {
+    width: 430px;
+  }
+}
+@media screen and (min-width: 531px) and (max-width:768px) {
+  .pofoliya .container {
+    width: 100%;
+  }
+  .pofoliya .container img {
+    width: 530px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width:1000px) {
+  .pofoliya .container {
+    width: 100%;
+  }
+  .pofoliya .container img {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width:1200px) {
+  .pofoliya .container {
+    width: 100%;
+  }
+}

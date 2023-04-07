@@ -1,0 +1,33 @@
+.about {
+  background-color: #b6b3b3;
+  padding: 40px 0px;
+}
+.about .container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+}
+.about .container h1 {
+  padding: 50px 0;
+}
+@media screen and (max-width: 375px) {
+  .about .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .about .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .about .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .about .container {
+    width: 100%;
+  }
+}
